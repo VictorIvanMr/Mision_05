@@ -242,13 +242,13 @@ def aproximarPi(n):
     return aproxPi
 
 
-def Divisibles19():
+def Divisibles37():
 
     contador = 0
 
     for y in range(100, 1000):
 
-        if y % 19 == 0:
+        if y % 37 == 0:
 
             contador += 1
 
@@ -338,7 +338,7 @@ def main():
 
         elif Usuario == 6:
 
-            print(Divisibles19())
+            print(Divisibles37())
 
             Usuario = menu()
 
